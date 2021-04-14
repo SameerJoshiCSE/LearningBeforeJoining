@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbar-fixed/">
+
+    <!-- Bootstrap core CSS -->
+<link href="style/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="style/style.css">
+    <link href="style/css/all.css" rel="stylesheet">
+    <script src="js/utils.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-inverse fixed-top bg-inverse">
+  <a class="navbar-brand" href="#"><i class="fab fa-shopify"></i> Shopper's Stop</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shopping.html">Shopping</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="product.html">Products</a>
+      </li>
+      <li class="nav-item" id="login">
+        <a class="btn btn-aqua" href="login.html">Login</a>
+      </li>
+      <li class="nav-item" id="register">
+        <a class="btn btn-aqua m-auto" href="register.html">Register</a>
+      </li>
+      <li class="nav-item" id="feedbutton">
+        <a class="btn btn-aqua" href="#" data-toggle="modal" data-target="#feedback-modal" data-case="feedback" id="feedbackbtn">Feedback</a>
+      </li>
+      <li class="nav-item" id="login">
+        <a class="btn btn-fb" href="#" data-toggle="popover" title="Facebook" data-content="Follow our page on Facebook to get exciting update." data-trigger="focus"><i class="fab fa-facebook-f"></i> Follow on Facebook</a>
+      </li>
+      <li class="nav-item" id="register">
+        <a href="#" class="btn btn-twitter dynamic-popover" data-bind="#popover-1"><i class="fab fa-twitter"></i> Follow Us on Twitter</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<main role="main" class="container">
+    <div>
+        <p>
+            <span style="font-size:60px;">You are here</span><br><br>
+            <span style="font-size:30px;">This is biggest Shopping website in India. <br><br>
+            We Offer You thousands of technical products.<br><br>
+            From Earphone to Air conditionor You can find Everything here<br></span>
+        </p>
+    </div>
+</main>
+<div class="modal fade" id="feedback-modal">
+  <div class="modal-dialog">
+     <div class="modal-content">
+       <a href="#" class="close-modal" data-dismiss="modal"><i class="fa fa-times"></i></a>
+         <div class="modal-body">
+           <div class="form-box">
+             <div id="feedback-case">
+             <h3>Feedback</h3>
+             <p>Please provide your feedback so that we will improve.</p>
+             <form action="#" class="validate">
+               <div class="form-group">
+                 <label class="form-control-label">E-mail</label>
+                 <input type="email" class="form-control" data-fv-notempty="true">
+               </div><!-- .form-group -->
+               <div class="form-group">
+                 <label class="form-control-label">Message</label>
+                 <input type="text" class="form-control" data-fv-notempty="true">
+               </div><!-- .form-group -->
+               <div class="form-group" id="feed">
+                 <input type="submit" value="Submit" class="btn btn-purple sub">
+                 <input type="submit" value="Cancel" class="btn btn-purple">
+               </div><!-- .form-group -->
+             </form>
+            </div><!-- #login-case -->
+          </div><!-- .form-box -->
+          </div><!-- .modal-body -->
+      </div><!-- .modal-content -->
+  </div><!-- .modal-dialog -->
+</div><!-- .modal -->
+
+<div style="display:none;">
+  <div id="popover-1">
+      <div class="data-title">Twitter</div>
+      <div class="data-content">On <strong>Twitter</strong> you can keep track of our new products.</div>
+    </div>
+</div>  
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/tether.min.js"></script>  
+<script src="js/utils.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+      </body>
+</html>
